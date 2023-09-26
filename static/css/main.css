@@ -3,8 +3,16 @@ margin: 0;
 font-family: Roboto;
 }
 #leftTop {
-  background-color: black;
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainPhoto {
+  border-radius: 50%;
+  width: 200px; /* adjust this value as needed */
+  height: 200px; /* adjust this value as needed */
+  object-fit: cover; /* this makes sure the image fills the circle */
 }
 h1.PageTitle {
   padding-left: 15px;
