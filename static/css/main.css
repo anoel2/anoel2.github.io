@@ -7,15 +7,6 @@ font-family: Roboto;
   justify-content: center;
   align-items: center;
 }
-
-.MainPhoto {
-  border-radius: 50%;
-  width: 100px; /* adjust this value as needed */
-  height: 100px; /* adjust this value as needed */
-  object-fit: cover;
-  object-position: center center;
-  border: 2px solid #fff; /* optional, adds a white border around the circle */
-  background-color: #fff; /* optional, adds a white background behind the image to cover any part of the image outside the circle */
 h1.PageTitle {
   padding-left: 25px;
   align: center;
