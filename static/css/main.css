@@ -1,13 +1,23 @@
 html,body{
 margin: 0;
 }
-ul.headerNavul {
+#leftTop {
+  background-color: black;
+  color: white;
+}
+.headerNavul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 60px;
 }
 
-li.headerNavli a {
+.headerNavli {
   display: block;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.headerNavli:hover {
+  background-color: #d3d3e2;
+  color: #333;
 }
