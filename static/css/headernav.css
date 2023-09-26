@@ -12,7 +12,6 @@
   padding: 12px 0;
   text-align: center; /* center the text */
   color: black; /* make the text white */
-  text-decoration: none; /* remove the underline */
 }
 
 .headerNavli:visited {
