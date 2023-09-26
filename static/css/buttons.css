@@ -1,0 +1,39 @@
+buttons {
+  background-color: #cc3333;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.buttons::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(45deg, #f3a183, #ff847c);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.buttons:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buttons:active::before {
+  opacity: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buttons:active {
+  transform: translateY(2px);
+}
