@@ -1,0 +1,19 @@
+.headerNavul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.headerNavli {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  text-align: center; /* center the text */
+  color: white; /* make the text white */
+}
+.headerNavli:visited {
+  color: white;
+}
+.headerNavli:hover {
+  background-color: #d3d3e2;
+  color: #333;
+}
