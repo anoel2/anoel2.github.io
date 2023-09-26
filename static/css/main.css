@@ -6,7 +6,6 @@ font-family: Roboto;
   display: flex;
   background-color: black;
   color: white;
-  align-items: center;
 }
 #MainPhoto {
   width: 200px; /* adjust this value as needed */
