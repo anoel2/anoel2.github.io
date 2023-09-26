@@ -15,6 +15,6 @@ font-family: Roboto;
   object-fit: cover; /* this makes sure the image fills the circle */
 }
 h1.PageTitle {
-  padding-left: 15px;
+  padding-left: 25px;
   align: center;
 }
