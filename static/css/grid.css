@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container,
+.right-container {
+  flex-basis: 33%;
+  height: 100%;
+}
+
+.middle-container {
+  flex-basis: 66%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch; /* align the items to stretch vertically */
+}
+
+#middleTop {
+  flex-basis: calc(50% - 5px); /* set this container to 50% height - 5px */
+}
+
+#middleMiddle {
+  flex-basis: calc(100% - 10px); /* this container takes up the remaining height minus 10px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#middleBottom {
+  flex-basis: calc(50% - 5px); /* set this container to 50% height - 5px  */
+}
+
+/* remove container colors */
+#leftTop,
+#leftBottom,
+#middleTop,
+#middleMiddle,
+#middleBottom,
+#rightcont {
+  background-color: transparent;
+}
