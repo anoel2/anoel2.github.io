@@ -9,6 +9,7 @@
   padding: 12px 0;
   text-align: center; /* center the text */
   color: white; /* make the text white */
+  text-decoration: none;
 }
 .headerNavli:visited {
   color: white;
