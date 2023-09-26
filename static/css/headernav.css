@@ -2,18 +2,23 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 100%; /* set the width to 100% */
+  font-family: 'Roboto', sans-serif; /* set the font-family to Roboto */
 }
+
 .headerNavli {
   display: block;
-  width: 100%;
+  width: inherit; /* set the width to inherit */
   padding: 12px 0;
   text-align: center; /* center the text */
-  color: white; /* make the text white */
-  text-decoration: none;
+  color: black; /* make the text white */
+  text-decoration: none; /* remove the underline */
 }
+
 .headerNavli:visited {
-  color: white;
+  color: black;
 }
+
 .headerNavli:hover {
   background-color: #d3d3e2;
   color: #333;
