@@ -18,6 +18,11 @@ font-family: Roboto;
   position: relative; /* change to relative to allow vertical margin */
   margin: -75px auto 0; /* move the element up by half its height */
   border-radius: 50%;
+  transition: transform 0.5s ease-in-out; /* Add transition for smooth effect */
+}
+
+.spin {
+  transform: rotate(360deg); /* Rotate the element 360 degrees */
 }
 
 h1.PageTitle {
