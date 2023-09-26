@@ -11,11 +11,13 @@
   width: inherit; /* set the width to inherit */
   padding: 12px 0;
   text-align: center; /* center the text */
-  color: black; /* make the text white */
+  color: black; /* make the text black */
+  text-decoration: none !important; /* remove the underline forcefully */
 }
 
 .headerNavli:visited {
   color: black;
+  text-decoration: none !important; /* remove the visited underline forcefully */
 }
 
 .headerNavli:hover {
