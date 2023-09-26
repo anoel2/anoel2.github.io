@@ -1,8 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>*KLAXON*</title>
+    <meta name="description" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css" />
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/grid.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/buttons.css') }}">     
+    <meta charset="UTF-8"/>
+  </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div class="container">
+  <div class="left-container" id="leftTop"></div>
+  <div class="left-container" id="leftBottom"></div>
+  <div class="middle-container" id="middleTop"></div>
+  <div class="middle-container" id="middleMiddle">
+    <a href= "{{ url_for('desktop') }}"><button class="buttons" id="desktopTicket" type="button">Desktop Support</button></a>
+  </div>
+  <div class="middle-container" id="middleBottom"></div>
+  <div class="right-container" id="rightcont"></div>
+</div>
+
 </body>
 </html>
-
