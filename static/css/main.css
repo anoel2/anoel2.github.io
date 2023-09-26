@@ -4,13 +4,13 @@ font-family: Roboto;
 }
 #leftTop {
   display: flex;
+  background-color: black;
+  color: white;
   justify-content: center;
   align-items: center;
 }
-.MainPhoto {
-  border-radius: 50%;
-}
+
 h1.PageTitle {
-  padding-left: 25px;
+  padding-left: 50px;
   align: center;
 }
