@@ -7,8 +7,8 @@ font-family: Roboto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: black;
-  color: white;
+  padding-top: 25%;
+  
 }
 #MainPhoto {
   width: 150px;
