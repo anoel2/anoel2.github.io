@@ -3,7 +3,11 @@
   height: 100vh;
 }
 
-.left-container,
+.left-container{
+  color: purple;
+  flex-basis: 33%;
+  height: 100%;
+}
 .right-container {
   flex-basis: 33%;
   height: 100%;
