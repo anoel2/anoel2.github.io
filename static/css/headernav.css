@@ -26,20 +26,24 @@
 }
  /* unvisited link */
 a:link {
-  color: White;
+  text-decoration: none !important;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: White;
+  text-decoration: none !important;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-  color: #293242;
+  text-decoration: none !important;
+  color: white;
 }
 
 /* selected link */
 a:active {
-  color: #293242;
+  text-decoration: none !important;
+  color: white;
 } 
