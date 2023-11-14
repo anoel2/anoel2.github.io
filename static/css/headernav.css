@@ -24,3 +24,22 @@
   background-color: #d3d3e2;
   color: #333;
 }
+ /* unvisited link */
+a:link {
+  color: White;
+}
+
+/* visited link */
+a:visited {
+  color: White;
+}
+
+/* mouse over link */
+a:hover {
+  color: #293242;
+}
+
+/* selected link */
+a:active {
+  color: #293242;
+} 
